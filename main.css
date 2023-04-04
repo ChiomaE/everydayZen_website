@@ -1,0 +1,94 @@
+/*width: 1440px;*/
+
+#header {
+    height: 100px;
+    background-color: #21262C;
+}
+
+/*fonts don't work, font is Franklin Gothic rn*/
+
+@font-face {
+    font-family: 'ZenMaruGothic';
+    src: url("ZenMaruGothic-Black.ttf") format("truetype");
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZenMaruGothic';
+    src: url("ZenMaruGothic");
+    src: url("ZenMaruGothic-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZenMaruGothic';
+    src: url("ZenMaruGothic");
+    src: url("ZenMaruGothic-Light.ttf") format("truetype");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZenMaruGothic';
+    src: url("ZenMaruGothic");
+    src: url("ZenMaruGothic-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZenMaruGothic';
+    src: url("ZenMaruGothic");
+    src: url("ZenMaruGothic-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav {
+    color: white;
+    font-family: 'ZenMaruGothic', 'Franklin Gothic Book', Arial, sans-serif;
+    float:inline-start;
+    display: flex;
+    text-align: center;
+}
+
+.latest {
+    background-color: white;
+    height: 727px;
+    width: 387px;
+    position: fixed;
+    right: 15px;
+    padding: 16px, 64px, 16px, 69px;
+    margin-top: 80px;
+
+}
+
+#logo {
+    font-size: 48px;
+    font-weight: 600;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 7px;
+    padding: 0px;
+}
+
+li {
+    
+    display: inline;
+    font-size: 28px;
+    padding: 40px 100px 40px 90px ;
+    
+    font-weight: lighter;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+    
